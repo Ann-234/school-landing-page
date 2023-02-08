@@ -148,16 +148,117 @@ section p{
   justify-content: space-between;
 }
 
+/* courses */
+/* courses */
+#courses{
+  height: 100vh;
+}
+#courses .grid{
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+#courses .grid .card{
+  height: 38vh;
+  border-radius: .3rem;
+  padding: .5rem .7rem;
+  box-shadow: 0 .3rem .5rem var(--light-black);
+  text-align: center;
+  position: relative;
+}
+#courses .grid .card .icon{
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+#courses .grid .card h5{
+  font-size: 1.2rem;
+}
+#courses .grid .card .start i{
+  color: var(--secondary-color);
+}
+#courses .grid .card .start i:last-child{
+  color: var(--light-black);
+}
+#courses .grid .card  .rating{
+  color: var(--light-white);
+  background: var(--secondary-color);
+  height: 70px;
+  width: 70px;
+  text-align: center;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+}
 
+/* about */
+/* about */
+#about{
+  height: 50vh;
+}
+#about p{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#about .wrap{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3,1fr);
+  
+}
+#about .wrap .card{
+  height: 15vh;
+  border-radius: .3rem;
+  padding: .5rem .7rem;
+  box-shadow: 0 .3rem .5rem var(--light-black);
+  text-align: center;  
+}
+#about .wrap .card h4{
+  color: var(--secondary-color);
+  font-size: 1.3rem;
+}
+#about .wrap .card h5{
+  text-transform: capitalize;
+  font-weight: 800;
+}
 
+/* contact */
+/* contact */
+#contact{
+  height: 85vh;
+}
 
-
-
-
-
-
-
-
+#contact .columns{
+  justify-content: space-evenly;
+  text-align: center;
+}
+#contact .forms{
+  width: 100%;
+}
+#contact .forms .form-group{
+  margin: 2.6rem;
+  padding: .25rem 0;
+}
+#contact .forms .form-group label{
+  display: block;
+}
+#contact .forms .form-group input{
+  width: 30vw;
+  height: 5vh;
+  border-radius: .3rem;
+}
+#contact .forms .form-group textarea{
+  width: 30vw;
+  height: 10vh;
+  border-radius: .3rem;
+}
+#contact .forms button{
+  background: var(--secondary-color);
+  color: var(--white);
+  padding: .9rem 2rem;
+  margin-left: 2.6rem;
+  border-radius: .3rem;
+}
 
 
 
@@ -208,6 +309,57 @@ section p{
 #sponsors{
   height: 20vh;
 }
+
+
+/* courses */
+#courses{
+  height: auto;
+}
+
+#courses .grid{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+#courses .grid .card{
+  height: 40vh;
+  border-radius: .3rem;
+  padding: .5rem .7rem;
+  box-shadow: 0 .3rem .5rem var(--light-black);
+  text-align: center;
+  position: relative;
+}
+
+/* about */
+/* about */
+#about{
+  height: auto;
+
+}
+#about .wrap{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns:1fr;
+  
+}
+
+
+
+/* contact */
+/* contact */
+#contact{
+  height: auto;
+}
+#contact .forms button{
+  background: var(--secondary-color);
+  color: var(--white);
+  padding: .6rem 3rem;
+  margin-left: 2rem;
+  border-radius: .3rem; 
+}
+
+
 
 
 
