@@ -260,13 +260,29 @@ section p{
   border-radius: .3rem;
 }
 
+/* footer */
+/* footer */
+#footer{
+  height: 30vh;
+  text-align: center;
+}
+#footer .icons i{
+  color: var(--light-black);
+  font-size: 1.5rem;
+} 
+#footer .p{
+  font-weight: 600;
+}
+#footer .icons i:hover{
+  color: var(--secondary-color);
+}
 
 
 
 
 
 
-
+/* media */
 /* media */
 @media only screen and (max-width:502px){
   /* navbar */
@@ -358,6 +374,13 @@ section p{
   margin-left: 2rem;
   border-radius: .3rem; 
 }
+
+/* footer */
+#footer{
+  height: 20vh;
+  text-align: center;
+}
+
 
 
 
